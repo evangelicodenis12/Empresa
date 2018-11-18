@@ -7,7 +7,7 @@ public class Funcionário extends Cargo {
 	private String cidade;
 	private String estado;
 	private double salario;
-	private Cargo codCargo;
+	private int codCargo;
 	
 	public int getCodFuncionario() {
 		return codFuncionario;
@@ -45,10 +45,10 @@ public class Funcionário extends Cargo {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	public Cargo getCodCargo() {
+	public int getCodCargo() {
 		return codCargo;
 	}
-	public void setCodCargo(Cargo codCargo) {
+	public void setCodCargo(int codCargo) {
 		this.codCargo = codCargo;
 	}
 
